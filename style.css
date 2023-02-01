@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.add {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    color:blue;
+    background-color:blanchedalmond;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.add:active
+{
+    transform: scale(0.98);
+}
+.add:hover
+{
+    color:black;
+}
+#txtarea
+{
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 50px 20px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px;
+}
