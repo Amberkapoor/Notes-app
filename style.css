@@ -67,3 +67,8 @@ body {
 .hidden {
     display: none;
 }
+#head
+{
+    text-align: center;
+    top: 0;
+}
